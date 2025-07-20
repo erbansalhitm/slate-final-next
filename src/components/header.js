@@ -9,7 +9,7 @@ export default function Header() {
         <nav>
             <ul className={styles.navList}>
                 <li className={styles.menuItem}>
-                    <Link href="/">About</Link>
+                    <Link href="/">Aboust</Link>
                 </li>
                 <li className={styles.menuItem}>
                     <Link href="/lendingvault">Stability Fund</Link>  
