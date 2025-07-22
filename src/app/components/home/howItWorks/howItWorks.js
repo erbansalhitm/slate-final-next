@@ -130,7 +130,7 @@ export default function HowItWorks() {
                 className={styles.stepBox}
               >
                 <h2
-                  className={`${styles.stepTitle} ${activeStep === idx ? styles.activeStep : ""}`}
+                  className={`${styles.stepTitle}${activeStep === idx ? ` ${styles.activeStep}` : ""}`}
                   onClick={() => setActiveStep(idx)}
                 >
                   {step.title}
