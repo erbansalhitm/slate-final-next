@@ -53,3 +53,37 @@
     flex-wrap: wrap;
     gap: 30px;
 }
+
+.tokenUtilityItem {
+    width: calc(50% - 15px);
+    display: flex;
+}
+
+.tokenUtilityIcon {
+    height: 69px;
+    width: 69px;
+    margin-right: 24px;
+    background-color: #EAEAEA;
+}
+
+.tokenUtilityContent {
+    max-width: calc(100% - 69px - 24px);
+}
+
+.tokenUtilityContentTitle {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1.4px;
+    line-height: 100%;
+    color: #4E4E4E;
+    margin-bottom: 10px;
+}
+
+.tokenUtilityContentDescription {
+    color: #A1A1A1;
+    font-size: 14px;
+    line-height: 128%;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "IBM Plex Mono";
+}

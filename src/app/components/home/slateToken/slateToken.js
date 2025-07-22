@@ -49,12 +49,12 @@ export default function SlateToken() {
                   {tokenUtilityItems.map((item, idx) => (
                     <div className={styles.tokenUtilityItem} key={idx}>
                       <div className={styles.tokenUtilityIcon}>
-                        <Image
+                        {/* <Image
                           src={item.icon}
                           alt={item.title}
                           width={24}
                           height={24}
-                        />
+                        /> */}
                       </div>
                       <div className={styles.tokenUtilityContent}>
                         <h6 className={styles.tokenUtilityContentTitle}>{item.title}</h6>
